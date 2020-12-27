@@ -10,6 +10,8 @@
 		B25174D3259818B70097C95C /* Leetcode.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = B25174C9259818B70097C95C /* Leetcode.framework */; };
 		B25174D8259818B70097C95C /* LeetcodeTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = B25174D7259818B70097C95C /* LeetcodeTests.swift */; };
 		B25174DA259818B70097C95C /* Leetcode.h in Headers */ = {isa = PBXBuildFile; fileRef = B25174CC259818B70097C95C /* Leetcode.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		B25174E8259818DB0097C95C /* TwoSum.swift in Sources */ = {isa = PBXBuildFile; fileRef = B25174E7259818DB0097C95C /* TwoSum.swift */; };
+		B25174EE2598221F0097C95C /* 2AddTwoNumbers.swift in Sources */ = {isa = PBXBuildFile; fileRef = B25174ED2598221F0097C95C /* 2AddTwoNumbers.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -29,6 +31,8 @@
 		B25174D2259818B70097C95C /* LeetcodeTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = LeetcodeTests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
 		B25174D7259818B70097C95C /* LeetcodeTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = LeetcodeTests.swift; sourceTree = "<group>"; };
 		B25174D9259818B70097C95C /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		B25174E7259818DB0097C95C /* TwoSum.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = TwoSum.swift; sourceTree = "<group>"; };
+		B25174ED2598221F0097C95C /* 2AddTwoNumbers.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = 2AddTwoNumbers.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -81,9 +85,19 @@
 			isa = PBXGroup;
 			children = (
 				B25174D7259818B70097C95C /* LeetcodeTests.swift */,
+				B25174E5259818BD0097C95C /* Easy */,
 				B25174D9259818B70097C95C /* Info.plist */,
 			);
 			path = LeetcodeTests;
+			sourceTree = "<group>";
+		};
+		B25174E5259818BD0097C95C /* Easy */ = {
+			isa = PBXGroup;
+			children = (
+				B25174E7259818DB0097C95C /* TwoSum.swift */,
+				B25174ED2598221F0097C95C /* 2AddTwoNumbers.swift */,
+			);
+			path = Easy;
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
@@ -201,6 +215,8 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				B25174EE2598221F0097C95C /* 2AddTwoNumbers.swift in Sources */,
+				B25174E8259818DB0097C95C /* TwoSum.swift in Sources */,
 				B25174D8259818B70097C95C /* LeetcodeTests.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
