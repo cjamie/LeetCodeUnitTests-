@@ -12,6 +12,7 @@
 		B25174DA259818B70097C95C /* Leetcode.h in Headers */ = {isa = PBXBuildFile; fileRef = B25174CC259818B70097C95C /* Leetcode.h */; settings = {ATTRIBUTES = (Public, ); }; };
 		B25174E8259818DB0097C95C /* TwoSum.swift in Sources */ = {isa = PBXBuildFile; fileRef = B25174E7259818DB0097C95C /* TwoSum.swift */; };
 		B25174EE2598221F0097C95C /* 2AddTwoNumbers.swift in Sources */ = {isa = PBXBuildFile; fileRef = B25174ED2598221F0097C95C /* 2AddTwoNumbers.swift */; };
+		B25174F425987B8B0097C95C /* 3LongestSubstringWithoutRepeatingCharacters.swift in Sources */ = {isa = PBXBuildFile; fileRef = B25174F325987B8B0097C95C /* 3LongestSubstringWithoutRepeatingCharacters.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -33,6 +34,7 @@
 		B25174D9259818B70097C95C /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
 		B25174E7259818DB0097C95C /* TwoSum.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = TwoSum.swift; sourceTree = "<group>"; };
 		B25174ED2598221F0097C95C /* 2AddTwoNumbers.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = 2AddTwoNumbers.swift; sourceTree = "<group>"; };
+		B25174F325987B8B0097C95C /* 3LongestSubstringWithoutRepeatingCharacters.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = 3LongestSubstringWithoutRepeatingCharacters.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -96,6 +98,7 @@
 			children = (
 				B25174E7259818DB0097C95C /* TwoSum.swift */,
 				B25174ED2598221F0097C95C /* 2AddTwoNumbers.swift */,
+				B25174F325987B8B0097C95C /* 3LongestSubstringWithoutRepeatingCharacters.swift */,
 			);
 			path = Easy;
 			sourceTree = "<group>";
@@ -218,6 +221,7 @@
 				B25174EE2598221F0097C95C /* 2AddTwoNumbers.swift in Sources */,
 				B25174E8259818DB0097C95C /* TwoSum.swift in Sources */,
 				B25174D8259818B70097C95C /* LeetcodeTests.swift in Sources */,
+				B25174F425987B8B0097C95C /* 3LongestSubstringWithoutRepeatingCharacters.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};

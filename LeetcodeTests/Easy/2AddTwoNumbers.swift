@@ -50,7 +50,7 @@ class AddTwoNumbers: XCTestCase {
         second5Head564.next = second6
         second6.next = second4
         
-        addTwoNumbers(firstHead243, second5Head564)
+//        addTwoNumbers(firstHead243, second5Head564)
     }
     
     public class ListNode {
