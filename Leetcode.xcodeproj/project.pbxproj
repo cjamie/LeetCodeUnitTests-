@@ -15,6 +15,7 @@
 		B25174F425987B8B0097C95C /* 3LongestSubstringWithoutRepeatingCharacters.swift in Sources */ = {isa = PBXBuildFile; fileRef = B25174F325987B8B0097C95C /* 3LongestSubstringWithoutRepeatingCharacters.swift */; };
 		B25174F82599781C0097C95C /* 5LongestPalindromicSubstring.swift in Sources */ = {isa = PBXBuildFile; fileRef = B25174F72599781C0097C95C /* 5LongestPalindromicSubstring.swift */; };
 		B2517662259D3F900097C95C /* 7ReverseInteger.swift in Sources */ = {isa = PBXBuildFile; fileRef = B2517661259D3F900097C95C /* 7ReverseInteger.swift */; };
+		B2517666259D48470097C95C /* 8StringtoInteger(atoi).swift in Sources */ = {isa = PBXBuildFile; fileRef = B2517665259D48470097C95C /* 8StringtoInteger(atoi).swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -39,6 +40,7 @@
 		B25174F325987B8B0097C95C /* 3LongestSubstringWithoutRepeatingCharacters.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = 3LongestSubstringWithoutRepeatingCharacters.swift; sourceTree = "<group>"; };
 		B25174F72599781C0097C95C /* 5LongestPalindromicSubstring.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = 5LongestPalindromicSubstring.swift; sourceTree = "<group>"; };
 		B2517661259D3F900097C95C /* 7ReverseInteger.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = 7ReverseInteger.swift; sourceTree = "<group>"; };
+		B2517665259D48470097C95C /* 8StringtoInteger(atoi).swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = "8StringtoInteger(atoi).swift"; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -105,6 +107,7 @@
 				B25174F325987B8B0097C95C /* 3LongestSubstringWithoutRepeatingCharacters.swift */,
 				B25174F72599781C0097C95C /* 5LongestPalindromicSubstring.swift */,
 				B2517661259D3F900097C95C /* 7ReverseInteger.swift */,
+				B2517665259D48470097C95C /* 8StringtoInteger(atoi).swift */,
 			);
 			path = Easy;
 			sourceTree = "<group>";
@@ -225,6 +228,7 @@
 			buildActionMask = 2147483647;
 			files = (
 				B25174EE2598221F0097C95C /* 2AddTwoNumbers.swift in Sources */,
+				B2517666259D48470097C95C /* 8StringtoInteger(atoi).swift in Sources */,
 				B25174E8259818DB0097C95C /* TwoSum.swift in Sources */,
 				B25174D8259818B70097C95C /* LeetcodeTests.swift in Sources */,
 				B2517662259D3F900097C95C /* 7ReverseInteger.swift in Sources */,

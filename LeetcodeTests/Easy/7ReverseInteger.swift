@@ -13,7 +13,7 @@ import XCTest
  Assume we are dealing with an environment that could only store integers within the 32-bit signed integer range: [−231,  231 − 1]. For the purpose of this problem, assume that your function returns 0 when the reversed integer overflows.
  
  */
-class _ReverseInteger: XCTestCase {
+class ReverseInteger: XCTestCase {
     
     func test() {
         let input1 = 123
@@ -40,24 +40,17 @@ class _ReverseInteger: XCTestCase {
     func reverse(_ x: Int) -> Int {
         let isNegative = x < 0
         var xCopy = abs(x)
-        
-        var cacheInts: [Int] = [] // [3,2,1]
-        
-        
+        var returnValue = 0
+ 
         while xCopy > 0  {
             let newValue = xCopy%10
             
-            cacheInts.append(newValue)
+            returnValue = returnValue * 10 + newValue
             xCopy /= 10
-        }
-        
-        let returnValue = cacheInts.reduce(0) { accumulator, next in
-            return accumulator * 10 + next
         }
         
         let isOverflow = returnValue > 2147483647 || returnValue < -2147483648
         
-        let final = isNegative ? -returnValue : returnValue
-        return isOverflow ? 0 : final
+        return isOverflow ? 0 : (isNegative ? -returnValue : returnValue)
     }
 }
