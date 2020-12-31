@@ -40,13 +40,13 @@ class PalindromeNumber: XCTestCase {
          */
         let palindromeNumbers = [
             121,
-            5743475
+            5743475,
+            0
         ]
         
         let nonPalindromeNumbers = [
             -121,
             10,
-            0
         ]
 
         palindromeNumbers.forEach {
@@ -80,7 +80,7 @@ class PalindromeNumber: XCTestCase {
             reversedInt = reversedInt * 10 + poppedValue
 
             xCopy /= 10 // pop xcopy by 1 digit
-        }        
+        }
         
         return reversedInt == xCopy || reversedInt/10 == xCopy
     }
