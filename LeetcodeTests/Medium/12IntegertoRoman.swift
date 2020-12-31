@@ -34,6 +34,7 @@ class IntegertoRoman: XCTestCase {
      */
         
     typealias SymbolValue = (key: String, value: Int)
+
     private static let sortedValues: [SymbolValue] = [
         ("I", 1),
         ("IV", 4),

@@ -10,6 +10,7 @@
 		B220C40A259D5BDE007D1DCF /* 11ContainerWithMostWater.swift in Sources */ = {isa = PBXBuildFile; fileRef = B220C409259D5BDE007D1DCF /* 11ContainerWithMostWater.swift */; };
 		B220C416259D66B9007D1DCF /* 13RomantoInteger.swift in Sources */ = {isa = PBXBuildFile; fileRef = B220C415259D66B9007D1DCF /* 13RomantoInteger.swift */; };
 		B220C41A259D732A007D1DCF /* 12IntegertoRoman.swift in Sources */ = {isa = PBXBuildFile; fileRef = B220C419259D732A007D1DCF /* 12IntegertoRoman.swift */; };
+		B220C41E259D952C007D1DCF /* 14LongestCommonPrefix.swift in Sources */ = {isa = PBXBuildFile; fileRef = B220C41D259D952C007D1DCF /* 14LongestCommonPrefix.swift */; };
 		B25174D3259818B70097C95C /* Leetcode.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = B25174C9259818B70097C95C /* Leetcode.framework */; };
 		B25174D8259818B70097C95C /* LeetcodeTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = B25174D7259818B70097C95C /* LeetcodeTests.swift */; };
 		B25174DA259818B70097C95C /* Leetcode.h in Headers */ = {isa = PBXBuildFile; fileRef = B25174CC259818B70097C95C /* Leetcode.h */; settings = {ATTRIBUTES = (Public, ); }; };
@@ -36,6 +37,7 @@
 		B220C409259D5BDE007D1DCF /* 11ContainerWithMostWater.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = 11ContainerWithMostWater.swift; sourceTree = "<group>"; };
 		B220C415259D66B9007D1DCF /* 13RomantoInteger.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = 13RomantoInteger.swift; sourceTree = "<group>"; };
 		B220C419259D732A007D1DCF /* 12IntegertoRoman.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = 12IntegertoRoman.swift; sourceTree = "<group>"; };
+		B220C41D259D952C007D1DCF /* 14LongestCommonPrefix.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = 14LongestCommonPrefix.swift; sourceTree = "<group>"; };
 		B25174C9259818B70097C95C /* Leetcode.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Leetcode.framework; sourceTree = BUILT_PRODUCTS_DIR; };
 		B25174CC259818B70097C95C /* Leetcode.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = Leetcode.h; sourceTree = "<group>"; };
 		B25174CD259818B70097C95C /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
@@ -118,6 +120,7 @@
 				B2517661259D3F900097C95C /* 7ReverseInteger.swift */,
 				B2517669259D53430097C95C /* 9PalindromeNumber.swift */,
 				B220C415259D66B9007D1DCF /* 13RomantoInteger.swift */,
+				B220C41D259D952C007D1DCF /* 14LongestCommonPrefix.swift */,
 			);
 			path = Easy;
 			sourceTree = "<group>";
@@ -257,6 +260,7 @@
 				B220C416259D66B9007D1DCF /* 13RomantoInteger.swift in Sources */,
 				B220C41A259D732A007D1DCF /* 12IntegertoRoman.swift in Sources */,
 				B25174F82599781C0097C95C /* 5LongestPalindromicSubstring.swift in Sources */,
+				B220C41E259D952C007D1DCF /* 14LongestCommonPrefix.swift in Sources */,
 				B251766A259D53430097C95C /* 9PalindromeNumber.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
