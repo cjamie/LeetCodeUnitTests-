@@ -59,7 +59,7 @@ class LetterCombinationsofaPhoneNumber: XCTestCase {
             telephoneButtons[$0]!
         }
         
-        return appendables.reduce(into: [String]()) {
+        return appendables.reduce(into: []) {
             $0 = combine(lhs: $0, rhs: $1)
         }
     }
