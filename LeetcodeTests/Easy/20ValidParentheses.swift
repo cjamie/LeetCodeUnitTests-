@@ -37,15 +37,12 @@ class ValidParentheses: XCTestCase {
         ]
 
         expectedFalses.forEach{
-            XCTAssert(isValid($0) == false)
+            XCTAssertFalse(isValid($0))
         }
-
-        
-//        isValid("()")
         
     }
     
-    func isValid(_ s: String) -> Bool {        
+    func isValid(_ s: String) -> Bool {
         var stackCounter: [Character] = []
         
         for char in s {
