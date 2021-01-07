@@ -30,6 +30,7 @@
 		B2517662259D3F900097C95C /* 7ReverseInteger.swift in Sources */ = {isa = PBXBuildFile; fileRef = B2517661259D3F900097C95C /* 7ReverseInteger.swift */; };
 		B2517666259D48470097C95C /* 8StringtoInteger(atoi).swift in Sources */ = {isa = PBXBuildFile; fileRef = B2517665259D48470097C95C /* 8StringtoInteger(atoi).swift */; };
 		B251766A259D53430097C95C /* 9PalindromeNumber.swift in Sources */ = {isa = PBXBuildFile; fileRef = B2517669259D53430097C95C /* 9PalindromeNumber.swift */; };
+		B29F5F9625A6F6BB00A7069E /* 27RemoveElement.swift in Sources */ = {isa = PBXBuildFile; fileRef = B29F5F9525A6F6BB00A7069E /* 27RemoveElement.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -69,6 +70,7 @@
 		B2517661259D3F900097C95C /* 7ReverseInteger.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = 7ReverseInteger.swift; sourceTree = "<group>"; };
 		B2517665259D48470097C95C /* 8StringtoInteger(atoi).swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = "8StringtoInteger(atoi).swift"; sourceTree = "<group>"; };
 		B2517669259D53430097C95C /* 9PalindromeNumber.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = 9PalindromeNumber.swift; sourceTree = "<group>"; };
+		B29F5F9525A6F6BB00A7069E /* 27RemoveElement.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = 27RemoveElement.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -142,6 +144,7 @@
 				B220C43125A01F2C007D1DCF /* 21MergeTwoSortedLists.swift */,
 				B220C44125A27FDE007D1DCF /* 263UglyNumber.swift */,
 				B220C49425A6F0E9007D1DCF /* 26RemoveDuplicatesfromSortedArray.swift */,
+				B29F5F9525A6F6BB00A7069E /* 27RemoveElement.swift */,
 			);
 			path = Easy;
 			sourceTree = "<group>";
@@ -280,6 +283,7 @@
 				B220C43C25A17301007D1DCF /* 264UglyNumberII.swift in Sources */,
 				B25174EE2598221F0097C95C /* 2AddTwoNumbers.swift in Sources */,
 				B2517666259D48470097C95C /* 8StringtoInteger(atoi).swift in Sources */,
+				B29F5F9625A6F6BB00A7069E /* 27RemoveElement.swift in Sources */,
 				B220C49525A6F0E9007D1DCF /* 26RemoveDuplicatesfromSortedArray.swift in Sources */,
 				B220C44225A27FDE007D1DCF /* 263UglyNumber.swift in Sources */,
 				B220C42A25A00C00007D1DCF /* 19RemoveNthNodeFromEndofList.swift in Sources */,
