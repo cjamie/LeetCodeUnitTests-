@@ -51,14 +51,16 @@ class RomantoInteger: XCTestCase {
     ]
 
     func romanToInt(_ s: String) -> Int {
-        s.enumerated().reduce(0) { accumulator, enumerated in
+        s.enumerated().reduce(into:0) { acc, enumerated in
             let (currentIndex, current) = enumerated
             let currentValue = Self.symbolValues[current]!
             let nextIndex = currentIndex + 1
-            
-            return { nextIndex < s.count ? Self.symbolValues[s[nextIndex]]!: Int.min }() > currentValue
-                ? accumulator - currentValue
-                : accumulator + currentValue
+
+            if nextIndex < s.count, Self.symbolValues[s[nextIndex]]! > currentValue {
+                acc -= currentValue
+            } else {
+                acc += currentValue
+            }
         }
     }
 }

@@ -24,7 +24,6 @@ class MergeTwoSortedLists: XCTestCase {
         secondList.next = secondThree
         secondThree.next = secondFour
         
-        print("-=- first test")
         _ = mergeTwoLists(firstList, secondList)
     }
 

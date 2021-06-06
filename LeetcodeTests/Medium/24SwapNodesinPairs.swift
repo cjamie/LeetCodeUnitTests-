@@ -63,9 +63,7 @@ class SwapNodesinPairs: XCTestCase {
                 current.next = odd[assignmentIndex]
             }
         }
-        
-        
-        print("-=- pointers \(odd.map{$0.val}) \(even.map{$0.val})")
+                
         return odd[0]
     }
     
