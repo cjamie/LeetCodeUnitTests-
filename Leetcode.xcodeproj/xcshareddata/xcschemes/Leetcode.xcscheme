@@ -1,0 +1,172 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<Scheme
+   LastUpgradeVersion = "1240"
+   version = "1.3">
+   <BuildAction
+      parallelizeBuildables = "YES"
+      buildImplicitDependencies = "YES">
+      <BuildActionEntries>
+         <BuildActionEntry
+            buildForTesting = "YES"
+            buildForRunning = "YES"
+            buildForProfiling = "YES"
+            buildForArchiving = "YES"
+            buildForAnalyzing = "YES">
+            <BuildableReference
+               BuildableIdentifier = "primary"
+               BlueprintIdentifier = "B25174C8259818B70097C95C"
+               BuildableName = "Leetcode.framework"
+               BlueprintName = "Leetcode"
+               ReferencedContainer = "container:Leetcode.xcodeproj">
+            </BuildableReference>
+         </BuildActionEntry>
+      </BuildActionEntries>
+   </BuildAction>
+   <TestAction
+      buildConfiguration = "Debug"
+      selectedDebuggerIdentifier = "Xcode.DebuggerFoundation.Debugger.LLDB"
+      selectedLauncherIdentifier = "Xcode.DebuggerFoundation.Launcher.LLDB"
+      shouldUseLaunchSchemeArgsEnv = "YES">
+      <Testables>
+         <TestableReference
+            skipped = "NO">
+            <BuildableReference
+               BuildableIdentifier = "primary"
+               BlueprintIdentifier = "B25174D1259818B70097C95C"
+               BuildableName = "LeetcodeTests.xctest"
+               BlueprintName = "LeetcodeTests"
+               ReferencedContainer = "container:Leetcode.xcodeproj">
+            </BuildableReference>
+            <SkippedTests>
+               <Test
+                  Identifier = "AddTwoNumbers">
+               </Test>
+               <Test
+                  Identifier = "ContainerWithMostWater">
+               </Test>
+               <Test
+                  Identifier = "GenerateParentheses">
+               </Test>
+               <Test
+                  Identifier = "ImplementstrStr__">
+               </Test>
+               <Test
+                  Identifier = "IntegertoRoman">
+               </Test>
+               <Test
+                  Identifier = "LRUCacheTest">
+               </Test>
+               <Test
+                  Identifier = "LetterCombinationsofaPhoneNumber">
+               </Test>
+               <Test
+                  Identifier = "LongestCommonPrefix">
+               </Test>
+               <Test
+                  Identifier = "LongestPalindromicSubstring">
+               </Test>
+               <Test
+                  Identifier = "LongestSubstringWithoutRepeatingCharacters">
+               </Test>
+               <Test
+                  Identifier = "MaximumSubarray">
+               </Test>
+               <Test
+                  Identifier = "MergeTwoSortedLists">
+               </Test>
+               <Test
+                  Identifier = "NumberofRecentCalls">
+               </Test>
+               <Test
+                  Identifier = "PalindromeNumber">
+               </Test>
+               <Test
+                  Identifier = "RemoveDuplicatesfromSortedArray">
+               </Test>
+               <Test
+                  Identifier = "RemoveNthNodeFromEndofList">
+               </Test>
+               <Test
+                  Identifier = "ReverseInteger">
+               </Test>
+               <Test
+                  Identifier = "RomantoInteger">
+               </Test>
+               <Test
+                  Identifier = "StringtoInteger_atoi">
+               </Test>
+               <Test
+                  Identifier = "SwapNodesinPairs">
+               </Test>
+               <Test
+                  Identifier = "ThreeSum">
+               </Test>
+               <Test
+                  Identifier = "TwoSum">
+               </Test>
+               <Test
+                  Identifier = "UglyNumber">
+               </Test>
+               <Test
+                  Identifier = "UglyNumberII">
+               </Test>
+               <Test
+                  Identifier = "ValidParentheses">
+               </Test>
+               <Test
+                  Identifier = "_0Powxn">
+               </Test>
+               <Test
+                  Identifier = "_0Powxn/test_solution()">
+               </Test>
+               <Test
+                  Identifier = "_5SearchInsertPosition">
+               </Test>
+               <Test
+                  Identifier = "_72SuperPow">
+               </Test>
+               <Test
+                  Identifier = "_7RemoveElement">
+               </Test>
+               <Test
+                  Identifier = "_9DivideTwoIntegers">
+               </Test>
+            </SkippedTests>
+         </TestableReference>
+      </Testables>
+   </TestAction>
+   <LaunchAction
+      buildConfiguration = "Debug"
+      selectedDebuggerIdentifier = "Xcode.DebuggerFoundation.Debugger.LLDB"
+      selectedLauncherIdentifier = "Xcode.DebuggerFoundation.Launcher.LLDB"
+      launchStyle = "0"
+      useCustomWorkingDirectory = "NO"
+      ignoresPersistentStateOnLaunch = "NO"
+      debugDocumentVersioning = "YES"
+      debugServiceExtension = "internal"
+      allowLocationSimulation = "YES">
+   </LaunchAction>
+   <ProfileAction
+      buildConfiguration = "Release"
+      shouldUseLaunchSchemeArgsEnv = "YES"
+      savedToolIdentifier = ""
+      useCustomWorkingDirectory = "NO"
+      debugDocumentVersioning = "YES">
+      <MacroExpansion>
+         <BuildableReference
+            BuildableIdentifier = "primary"
+            BlueprintIdentifier = "B25174C8259818B70097C95C"
+            BuildableName = "Leetcode.framework"
+            BlueprintName = "Leetcode"
+            ReferencedContainer = "container:Leetcode.xcodeproj">
+         </BuildableReference>
+      </MacroExpansion>
+   </ProfileAction>
+   <AnalyzeAction
+      buildConfiguration = "Debug">
+   </AnalyzeAction>
+   <ArchiveAction
+      buildConfiguration = "Release"
+      revealArchiveInOrganizer = "YES">
+   </ArchiveAction>
+</Scheme>
