@@ -71,6 +71,46 @@ class LRUCacheTest: XCTestCase {
     }
 
 
+    class LRUCache {
+        var cache: [Int: Int] = [:]
+        var order: [Int] = []
+        var capacity: Int = 0
+
+        init(_ capacity: Int) {
+            self.capacity = capacity
+        }
+
+        func get(_ key: Int) -> Int {
+            moveToEnd(key)
+            return cache[key] ?? -1
+        }
+
+        private func moveToEnd(_ key: Int) {
+            if let indexV = order.firstIndex(of: key) {
+                order.remove(at: indexV)
+                order.append(key)
+            }
+        }
+
+        func put(_ key: Int, _ value: Int) {
+
+
+            // is non existing value, and cache is full
+            if cache[key] == nil && cache.count+1 > capacity {
+                let lastKey = order.first!
+                cache.removeValue(forKey: lastKey)
+                if let indexV = order.firstIndex(of: lastKey) {
+                    order.remove(at: indexV)
+                }
+            }
+
+            cache[key] != nil // if there is an existing key, more it to the end
+                ? moveToEnd(key)
+                : order.append(key) // otherwise, add it into the order.
+
+            cache[key] = value
+        }
+    }
 }
 
 class LRUCache {
