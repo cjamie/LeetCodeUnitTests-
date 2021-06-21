@@ -39,10 +39,22 @@
             </BuildableReference>
             <SkippedTests>
                <Test
+                  Identifier = "AddBinary">
+               </Test>
+               <Test
                   Identifier = "AddTwoNumbers">
                </Test>
                <Test
+                  Identifier = "BestTimetoBuyandSellStockTest">
+               </Test>
+               <Test
+                  Identifier = "CoinChange">
+               </Test>
+               <Test
                   Identifier = "ContainerWithMostWater">
+               </Test>
+               <Test
+                  Identifier = "FirstUniqueCharacterinAString">
                </Test>
                <Test
                   Identifier = "GenerateParentheses">
@@ -70,6 +82,9 @@
                </Test>
                <Test
                   Identifier = "MaximumSubarray">
+               </Test>
+               <Test
+                  Identifier = "MergeIntervalsTests">
                </Test>
                <Test
                   Identifier = "MergeTwoSortedLists">
@@ -100,6 +115,9 @@
                </Test>
                <Test
                   Identifier = "ThreeSum">
+               </Test>
+               <Test
+                  Identifier = "TopKFrequentWords">
                </Test>
                <Test
                   Identifier = "TwoSum">

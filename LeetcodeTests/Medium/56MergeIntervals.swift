@@ -37,7 +37,6 @@ class MergeIntervalsTests: XCTestCase {
         let intervals = [[2,3],[4,5],[6,7],[8,9],[1,10]]
 
         let temp = merge(intervals)
-        print("-=- tepm \(temp)")
     }
 
     func merge(_ intervals: [[Int]]) -> [[Int]] {

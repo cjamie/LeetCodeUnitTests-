@@ -16,7 +16,6 @@ class NumberofRecentCalls: XCTestCase {
 
         let a = sut.ping(anyDouble)
         let b = sut.ping(anyDouble)
-        print("-=- \(a) \(b)")
     }
 }
 
